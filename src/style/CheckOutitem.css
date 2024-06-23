@@ -1,0 +1,61 @@
+/* Add this to your CSS file or style tag */
+
+.App-checkout {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .main-checkout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title-checkout {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .products-checkout {
+    display: contents;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-checkout {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .product-image {
+    max-width: 25%;
+    max-height: 100%;
+    object-fit: contain; /* หรือสามารถใช้ 'cover' หรือ 'scale-down' ตามความต้องการ */
+  }
+  
+  
+  .total-price-checkout {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .total-price span {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 20px;
+  }
+  
+  .checkout-btn-checkout {
+    background-color: var(--main-color);
+    color: white;
+    padding: 15px 25px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 2%;
+  }
+  

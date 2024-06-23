@@ -1,0 +1,24 @@
+.order-image {
+    width: 100%; /* ปรับขนาดของรูปภาพตามต้องการ */
+    height: auto; /* รักษาสัดส่วนของรูปภาพ */
+    display: block; /* แสดงรูปภาพเป็นบล็อก */
+    margin: 15px auto; /* จัดข้อความและรูปภาพตามศูนย์กลาง */
+  }
+  
+  .products-HOR {
+    display: flex; /* แสดงรูปภาพและข้อความเป็นแนวนอน */
+    flex-wrap: wrap; /* ข้อความและรูปภาพจะขึ้นบรรทัดใหม่เมื่อขนาดหน้าจอจำกัด */
+    justify-content: center; /* จัดข้อความและรูปภาพตามศูนย์กลางในแนวนอน */
+    align-items: center; /* จัดข้อความและรูปภาพตามศูนย์กลางในแนวดิ่ง */
+    gap: 80px; /* ระยะห่างระหว่างข้อความและรูปภาพ */
+  }
+
+  .contact-icons{
+    display: flex;
+    margin-top: 15px;
+  }
+
+  .contact-icons h3{
+    margin: 0px 20px;
+  }
+  
